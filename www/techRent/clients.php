@@ -13,4 +13,4 @@ mysqli_set_charset($db,"utf8");
 $result = $db->query( 'SELECT `html` FROM `clients` WHERE 1' );
 $object = $result->fetch_object( 'Clients' );
 print $object->html;
-?>
+?>x
